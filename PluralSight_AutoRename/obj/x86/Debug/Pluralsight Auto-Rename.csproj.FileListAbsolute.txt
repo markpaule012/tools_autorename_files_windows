@@ -1,0 +1,24 @@
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\bin\Debug\Transitions.pdb
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\bin\Debug\UltraID3Lib.xml
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\obj\x86\Debug\Pluralsight Auto-Rename.csprojAssemblyReference.cache
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\obj\x86\Debug\Pluralsight Auto-Rename.csproj.GenerateResource.cache
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\obj\x86\Debug\Pluralsight Auto-Rename.csproj.CoreCompileInputs.cache
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\obj\x86\Debug\Pluralsight Auto-Rename.csproj.CopyComplete
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\obj\x86\Debug\Pluralsight_AutoRename.Form1.resources
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\bin\Debug\Pluralsight Auto-Rename.exe
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\bin\Debug\Pluralsight Auto-Rename.pdb
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\obj\x86\Debug\Pluralsight_AutoRename.Properties.Resources.resources
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\obj\x86\Debug\Pluralsight Auto-Rename.exe
+C:\DEV\Workspace\VS\Pluralsight Auto-Rename\AtomicParsley\obj\x86\Debug\Pluralsight Auto-Rename.pdb
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\bin\Debug\Pluralsight Auto-Rename.exe
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\bin\Debug\Pluralsight Auto-Rename.pdb
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\bin\Debug\Transitions.pdb
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\bin\Debug\UltraID3Lib.xml
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.csprojAssemblyReference.cache
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight_AutoRename.Form1.resources
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight_AutoRename.Properties.Resources.resources
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.csproj.GenerateResource.cache
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.csproj.CoreCompileInputs.cache
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.csproj.CopyComplete
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.exe
+C:\Workspace\zGithub\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.pdb
