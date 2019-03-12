@@ -1,5 +1,6 @@
-# tools_pluralsight_autorename
+# Auto-Rename Pluralsight mp4 Files
 Auto-Rename Pluralsight Files
+- Visual C# Project
 
 How to use:
 1. Run Pluralsight Auto-Rename.exe on Debug Folder
