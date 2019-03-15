@@ -40,6 +40,9 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.down = new System.Windows.Forms.Button();
+            this.up = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.prefix_text = new System.Windows.Forms.TextBox();
             this.prefix = new System.Windows.Forms.CheckBox();
@@ -69,6 +72,7 @@
             "Drag Files Here"});
             this.listBox1.Location = new System.Drawing.Point(18, 19);
             this.listBox1.Name = "listBox1";
+            this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.listBox1.Size = new System.Drawing.Size(239, 286);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
@@ -79,7 +83,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 361);
+            this.label1.Location = new System.Drawing.Point(15, 379);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
@@ -181,6 +185,9 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.down);
+            this.panel1.Controls.Add(this.up);
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.listBox1);
             this.panel1.Controls.Add(this.label1);
@@ -191,6 +198,40 @@
             this.panel1.TabIndex = 34;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            // 
+            // down
+            // 
+            this.down.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.down.Location = new System.Drawing.Point(77, 340);
+            this.down.Name = "down";
+            this.down.Size = new System.Drawing.Size(53, 23);
+            this.down.TabIndex = 36;
+            this.down.Text = "Down";
+            this.down.UseVisualStyleBackColor = true;
+            this.down.Click += new System.EventHandler(this.down_Click);
+            // 
+            // up
+            // 
+            this.up.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.up.Location = new System.Drawing.Point(18, 340);
+            this.up.Name = "up";
+            this.up.Size = new System.Drawing.Size(53, 23);
+            this.up.TabIndex = 35;
+            this.up.Text = "Up";
+            this.up.UseVisualStyleBackColor = true;
+            this.up.Click += new System.EventHandler(this.up_Click);
+            // 
+            // button5
+            // 
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(99, 311);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(158, 23);
+            this.button5.TabIndex = 34;
+            this.button5.Text = "Remove All";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Visible = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // panel2
             // 
@@ -263,6 +304,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(669, 30);
             this.panel3.TabIndex = 36;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             this.panel3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseDown);
             this.panel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel3_MouseMove);
             // 
@@ -405,6 +447,9 @@
         private System.Windows.Forms.TextBox prefix_text;
         private System.Windows.Forms.CheckBox prefix;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button down;
+        private System.Windows.Forms.Button up;
     }
 }
 

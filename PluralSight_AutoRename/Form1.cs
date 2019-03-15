@@ -177,8 +177,10 @@ namespace Pluralsight_AutoRename
 
             }
 
-            listBox1.Sorted = true;
-            listBox2.Sorted = true;
+            //listBox1.Sorted = true;
+            //listBox2.Sorted = true;
+
+            
 
         }
 
@@ -250,10 +252,12 @@ namespace Pluralsight_AutoRename
 
             if (valid == true)
             {
+                if(listBox1.Items.Count > 0)
                 if (listBox1.Items[0].Equals("Drag Files Here"))
                     listBox1.Items.RemoveAt(0);
                 Transition.run(this, "Width", 669, new TransitionType_EaseInEaseOut(1000));
                 button4.Visible = true;
+                button5.Visible = true;
                 listBox1.Items.Add(Path.GetFileName(path)); 
                 listBox2.Items.Add(path); 
             }
@@ -363,6 +367,70 @@ namespace Pluralsight_AutoRename
                 listBox3.Items.Add(s);
 
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void up_Click(object sender, EventArgs e)
+        {
+
+            listBox1.BeginUpdate();
+            listBox2.BeginUpdate();
+            ListBox.SelectedIndexCollection col = this.listBox1.SelectedIndices;
+            for (int i = 0; i <= this.listBox1.Items.Count - 1; i++)
+            {
+                if ((col.Contains(i)) && (i > 0))
+                {
+                    object o = this.listBox1.Items[i];
+                    this.listBox1.Items.RemoveAt(i);
+                    this.listBox1.Items.Insert(i - 1, o);
+                    this.listBox1.SetSelected(i - 1, true);
+
+                    object p = this.listBox2.Items[i];
+                    this.listBox2.Items.RemoveAt(i);
+                    this.listBox2.Items.Insert(i - 1, p);
+                    this.listBox2.SetSelected(i - 1, true);
+                }
+            }
+            listBox1.EndUpdate();
+            listBox2.EndUpdate();
+
+        }
+
+        private void down_Click(object sender, EventArgs e)
+        {
+
+            listBox1.BeginUpdate();
+            listBox2.BeginUpdate();
+            ListBox.SelectedIndexCollection col = this.listBox1.SelectedIndices;
+            for (int i = 0; i <= this.listBox1.Items.Count - 1; i++)
+            {
+                if ((col.Contains(i)) && (i < 0))
+                {
+                    object o = this.listBox1.Items[i];
+                    this.listBox1.Items.RemoveAt(i);
+                    this.listBox1.Items.Insert(i + 1, o);
+                    this.listBox1.SetSelected(i + 1, true);
+
+                    object p = this.listBox2.Items[i];
+                    this.listBox2.Items.RemoveAt(i);
+                    this.listBox2.Items.Insert(i + 1, p);
+                    this.listBox2.SetSelected(i + 1, true);
+                }
+            }
+            listBox1.EndUpdate();
+            listBox2.EndUpdate();
+
+
         }
     }
 }
