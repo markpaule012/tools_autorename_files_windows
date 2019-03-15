@@ -31,3 +31,4 @@ C:\DEV\Workspace\VS\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\
 C:\DEV\Workspace\VS\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.csproj.CopyComplete
 C:\DEV\Workspace\VS\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.exe
 C:\DEV\Workspace\VS\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.pdb
+C:\DEV\Workspace\VS\tools_pluralsight_autorename\PluralSight_AutoRename\obj\x86\Debug\Pluralsight Auto-Rename.csprojAssemblyReference.cache

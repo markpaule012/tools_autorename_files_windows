@@ -412,9 +412,9 @@ namespace Pluralsight_AutoRename
             listBox1.BeginUpdate();
             listBox2.BeginUpdate();
             ListBox.SelectedIndexCollection col = this.listBox1.SelectedIndices;
-            for (int i = 0; i <= this.listBox1.Items.Count - 1; i++)
+            for (int i = this.listBox1.Items.Count; i >= 0 ; i--)
             {
-                if ((col.Contains(i)) && (i < 0))
+                if ((col.Contains(i)) && ( i < this.listBox1.Items.Count -1))
                 {
                     object o = this.listBox1.Items[i];
                     this.listBox1.Items.RemoveAt(i);
