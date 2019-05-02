@@ -305,6 +305,7 @@ namespace Pluralsight_AutoRename
             {
                 for (int c = 0; c < listBox2.Items.Count; c++)
                 {
+                    listBox1.ClearSelected();
                     listBox1.SetSelected(c, true);
                     button1.PerformClick();
                 }
