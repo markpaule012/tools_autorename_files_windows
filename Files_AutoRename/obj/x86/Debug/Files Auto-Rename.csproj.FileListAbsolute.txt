@@ -1,0 +1,15 @@
+C:\Workspace\zGithub\tools_autorename_files_windows\PluralSight_AutoRename\bin\Debug\Files_AutoRename.exe
+C:\Workspace\zGithub\tools_autorename_files_windows\PluralSight_AutoRename\bin\Debug\Files_AutoRename.pdb
+C:\Workspace\zGithub\tools_autorename_files_windows\PluralSight_AutoRename\obj\x86\Debug\Files Auto-Rename.csprojResolveAssemblyReference.cache
+C:\Workspace\zGithub\tools_autorename_files_windows\PluralSight_AutoRename\obj\x86\Debug\Pluralsight_AutoRename.Form1.resources
+C:\Workspace\zGithub\tools_autorename_files_windows\PluralSight_AutoRename\obj\x86\Debug\Files_AutoRename.Properties.Resources.resources
+C:\Workspace\zGithub\tools_autorename_files_windows\PluralSight_AutoRename\obj\x86\Debug\Files Auto-Rename.csproj.GenerateResource.Cache
+C:\Workspace\zGithub\tools_autorename_files_windows\PluralSight_AutoRename\obj\x86\Debug\Files_AutoRename.exe
+C:\Workspace\zGithub\tools_autorename_files_windows\PluralSight_AutoRename\obj\x86\Debug\Files_AutoRename.pdb
+C:\Workspace\zGithub\tools_autorename_files_windows\Files_AutoRename\obj\x86\Debug\Files_AutoRename.exe
+C:\Workspace\zGithub\tools_autorename_files_windows\Files_AutoRename\obj\x86\Debug\Files_AutoRename.pdb
+C:\Workspace\zGithub\tools_autorename_files_windows\Files_AutoRename\obj\x86\Debug\Files_AutoRename.Form1.resources
+C:\Workspace\zGithub\tools_autorename_files_windows\Files_AutoRename\obj\x86\Debug\Files_AutoRename.Properties.Resources.resources
+C:\Workspace\zGithub\tools_autorename_files_windows\Files_AutoRename\obj\x86\Debug\Files Auto-Rename.csproj.GenerateResource.Cache
+C:\Workspace\zGithub\tools_autorename_files_windows\Files_AutoRename\bin\Debug\Files_AutoRename.exe
+C:\Workspace\zGithub\tools_autorename_files_windows\Files_AutoRename\bin\Debug\Files_AutoRename.pdb
